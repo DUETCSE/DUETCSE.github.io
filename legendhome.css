@@ -34,7 +34,7 @@
       background-color:rgb(255, 255, 255);
 width:100%;
 opacity:inherit;
-      
+position:static;
   }
   .topnav a{
 float:right;
@@ -84,6 +84,16 @@ color:white;
     padding-left: 5px;
 
   }
+  .newcol{
+    float: left;
+    width: 30%;
+    text-align:center;
+    padding: 5px;
+    height: 200px;
+    padding-left: 5px;
+
+  }
+  
 
   .nutshell{
       background-color: darkblue;
