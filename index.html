@@ -13,6 +13,25 @@
 <link rel="shortcut icon" href="https://duet.edu.pk/wp-content/uploads/2016/04/duet_logo.png" type="image/x-icon"/>
 
 <link rel="icon" href="C:\Users\Mishaal\OneDrive\Desktop\Website\Website Pictures\mobilecomp.jpg" style="border-radius:100%"/>
+<style>
+  .left, .right {
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+  }
+  
+  .main {
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+  }
+  
+  /* Use a media query to add a breakpoint at 800px: */
+  @media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+  </style>
+  
 </head>
 
 
@@ -38,6 +57,45 @@
   <div class='console-underscore' id='cursor'>|</div>
 </div>
 </div>
+
+
+
+
+
+
+
+<h2>Media Queries</h2>
+<p>Resize the browser window.</p>
+
+<p>Make sure you reach the breakpoint at 800px when resizing this frame.</p>
+
+<div class="left">
+  <p>Left Menu</p>
+</div>
+
+<div class="main">
+  <p>Main Content</p>
+</div>
+
+<div class="right">
+  <p>Right Content</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  <!-- HJJB-->
 <script>
 
