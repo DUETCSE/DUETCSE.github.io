@@ -1,5 +1,6 @@
 
-.mySlides {display:none;
+.mySlides {
+  display: none;
 }
       .header {
         height: 40px;
@@ -34,7 +35,7 @@
       background-color:rgb(255, 255, 255);
 width:100%;
 opacity:inherit;
-position:static;
+margin-right:900px;
   }
   .topnav a{
 float:right;
@@ -147,7 +148,7 @@ color:white;
 }
 
 .slides{
-  display:none;
+  display: none;
   text-align:center;
 }
 
@@ -201,3 +202,21 @@ img {
 }
 
   
+
+.wrapper{
+  width:100%;
+}
+
+.img-info {
+  width:100%;
+}
+
+.img-info h1{
+  padding: 30px 30px 20px;
+  line-height: 44px;
+}
+
+.img-info p{
+  padding: 0px 30px 20px;
+  line-height: 24px;
+}
