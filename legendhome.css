@@ -20,6 +20,7 @@
         background: darkblue;
         color: white;
         text-align: left;
+        margin-bottom: 0%;
       }
       a {
         color: #00aaff;
@@ -97,18 +98,18 @@ color:white;
   
 
   .nutshell{
-      background-color: darkblue;
+      background-color: white;
       font-size: 110%;
-      color: white;
+      color: rgb(92, 91, 91);
       padding-top: 0%;
       padding-bottom: 25%;
     
   }
 
   .back{
-    background-color: darkblue;
+    background-color: white;
     font-size: 110%;
-    color: white;
+    color: rgb(92, 91, 91);
     padding-top: 1%;
     padding-bottom: 20%;
 }
@@ -203,20 +204,3 @@ img {
 
   
 
-.wrapper{
-  width:100%;
-}
-
-.img-info {
-  width:100%;
-}
-
-.img-info h1{
-  padding: 30px 30px 20px;
-  line-height: 44px;
-}
-
-.img-info p{
-  padding: 0px 30px 20px;
-  line-height: 24px;
-}
